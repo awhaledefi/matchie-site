@@ -7,8 +7,6 @@
   --text: #16131C;
   --dim: #605A6C;
   --accent: #D4145A;
-  --warn-bg: #FFF3D6;
-  --warn-line: #E0A800;
 }
 @media (prefers-color-scheme: dark) {
   :root {
@@ -18,8 +16,6 @@
     --text: #F0ECF3;
     --dim: #A79EB2;
     --accent: #FF6D9C;
-    --warn-bg: #2E2411;
-    --warn-line: #8A6A16;
   }
 }
 * { box-sizing: border-box; }
@@ -50,14 +46,6 @@ table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .94re
 th, td { text-align: left; padding: .55rem .7rem; border-bottom: 1px solid var(--line); vertical-align: top; }
 th { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--dim); }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 1.25rem 1.4rem; margin: 1.25rem 0; }
-.todo {
-  background: var(--warn-bg);
-  border: 1px solid var(--warn-line);
-  border-radius: 8px;
-  padding: .85rem 1rem;
-  font-size: .92rem;
-  margin: 1.25rem 0;
-}
 code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .92em; background: var(--surface); border: 1px solid var(--line); border-radius: 4px; padding: .1em .35em; }
 footer { margin-top: 4rem; padding-top: 1.25rem; border-top: 1px solid var(--line); color: var(--dim); font-size: .86rem; }
 .btn {

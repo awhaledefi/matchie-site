@@ -17,9 +17,6 @@ The app source lives in a separate private repo. When these pages change, check
 that `Web` in `Matchie/Models.swift` and the URL table in `APPSTORE.md` still
 agree with them.
 
-> **Before submitting to the App Store:** replace `[[CONTACT-EMAIL]]` with a real,
-> monitored address.
->
-> ```sh
-> grep -rl '\[\[CONTACT-EMAIL\]\]' . | xargs sed -i '' 's/\[\[CONTACT-EMAIL\]\]/you@yourdomain.com/g'
-> ```
+Contact address on every page: **iamwaelalani@gmail.com**. It is the address
+App Store Connect points at for privacy and support, so it has to keep working —
+change it here and in App Store Connect together, never one without the other.
